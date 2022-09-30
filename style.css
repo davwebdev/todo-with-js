@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    transition: all 0.5 linear;
+}
+body{
+    background-image: linear-gradient(to right,rgb(0, 238, 255) ,rgb(68, 255, 0));
+    color: white;
+}
+.main{
+    width: 500px;
+    margin: 100px auto;
+    text-align: center;
+}
+.todo-input{
+    width: 200px;
+    font-size: 1rem;
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+}
+.todo-button{
+    padding: 0.3rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    background-image: linear-gradient(to right,rgb(255, 255, 255) ,rgb(38, 255, 0));
+}
+.filter-todo{
+    padding: 0.3rem 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+.todo{
+    background-image: linear-gradient(to right,rgb(21, 255, 0) ,rgb(255, 255, 255));
+    margin: 0.3rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+}
+.fa-check{
+    color: rgb(0, 255, 106);
+    cursor: pointer;
+}
+.fa-trash{
+    color: rgb(0, 255, 94);
+    cursor: pointer;
+}
+.completed{
+    background: green;
+    transition: 1s;
+}
+.color{
+    background: green;
+    transition: 1s;
+}
+.fall{
+    transform: scale(0) rotate(360deg);
+    transition: 2s;
+}
